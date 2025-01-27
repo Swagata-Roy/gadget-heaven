@@ -1,5 +1,6 @@
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types'
+import logo from '../../assets/logo.png'
 
 const NavItem = ({ to, children }) => {
     const location = useLocation()
@@ -78,6 +79,7 @@ const Navbar = () => {
                         {/* Logo*/}
                         <div className="flex items-center space-x-3">
                             <Link to="/" className="flex items-center gap-2">
+                                <img src={logo} alt="logo" />
                                 <span className={`text-2xl font-bold ${getText()}`}>GadgetHeaven</span>
                             </Link>
                         </div>
