@@ -9,9 +9,13 @@ const NavItem = ({ to, children }) => {
         <NavLink
             to={to}
             className={({ isActive }) =>
-                `px-6 py-3 text-base font-medium transition-colors ${isHome
-                    ? isActive ? 'text-white' : 'text-white/90 hover:text-white'
-                    : isActive ? 'text-black' : 'text-black/90 hover:text-black'
+                `px-6 py-3 text-base font-medium transition-all rounded-full ${isHome
+                    ? isActive
+                        ? 'text-black bg-white'
+                        : 'text-white/90 hover:text-white hover:bg-white/10'
+                    : isActive
+                        ? 'text-black bg-gray-200'
+                        : 'text-black/90 hover:text-black hover:bg-black/10'
                 }`
             }
         >
@@ -71,9 +75,9 @@ const Navbar = () => {
             <div className={`absolute left-0 right-0 z-50 ${getNavBackground()}`}>
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="flex items-center justify-between h-20">
-                        {/* Logo and Brand */}
+                        {/* Logo*/}
                         <div className="flex items-center space-x-3">
-                            <Link to="/" className="flex items-center space-x-2">
+                            <Link to="/" className="flex items-center gap-2">
                                 <span className={`text-2xl font-bold ${getText()}`}>GadgetHeaven</span>
                             </Link>
                         </div>
