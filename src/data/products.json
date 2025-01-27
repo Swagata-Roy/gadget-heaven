@@ -1,0 +1,175 @@
+{
+    "products": [
+        {
+            "product_id": "comp1",
+            "product_title": "MacBook Pro M2",
+            "product_image": "https://www.notebookcheck.net/fileadmin/_processed_/c/3/csm_AKA8518_984be0479c.jpg",
+            "category": "computers",
+            "price": 1299.99,
+            "description": "The latest MacBook Pro featuring the M2 chip, offering incredible performance and battery life for professionals and creatives.",
+            "specifications": [
+                "Apple M2 Chip",
+                "13.3-inch Retina Display",
+                "8GB Unified Memory",
+                "256GB SSD Storage",
+                "Up to 20 Hours Battery Life"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": "comp2",
+            "product_title": "Dell XPS 15",
+            "product_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+            "category": "computers",
+            "price": 1599.99,
+            "description": "Premium Windows laptop with stunning 4K display and powerful performance for demanding tasks.",
+            "specifications": [
+                "Intel Core i7-12700H",
+                "15.6-inch 4K OLED Display",
+                "16GB DDR5 RAM",
+                "512GB NVMe SSD",
+                "NVIDIA RTX 3050 Ti"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": "comp3",
+            "product_title": "HP Pavilion Gaming",
+            "product_image": "https://images.unsplash.com/photo-1593642634367-d91a135587b5",
+            "category": "computers",
+            "price": 899.99,
+            "description": "Affordable gaming laptop with great performance for casual gamers and content creators.",
+            "specifications": [
+                "AMD Ryzen 7 5800H",
+                "15.6-inch FHD 144Hz Display",
+                "16GB DDR4 RAM",
+                "512GB SSD",
+                "NVIDIA GTX 1650"
+            ],
+            "availability": true,
+            "rating": 4.5
+        },
+        {
+            "product_id": "comp4",
+            "product_title": "Lenovo ThinkPad X1",
+            "product_image": "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9",
+            "category": "computers",
+            "price": 1399.99,
+            "description": "Business laptop known for reliability, security features, and the iconic TrackPoint.",
+            "specifications": [
+                "Intel Core i5-1240P",
+                "14-inch WQHD Display",
+                "16GB LPDDR5",
+                "512GB PCIe SSD",
+                "Intel Iris Xe Graphics"
+            ],
+            "availability": false,
+            "rating": 4.6
+        },
+        {
+            "product_id": "comp5",
+            "product_title": "ASUS ROG Strix",
+            "product_image": "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb",
+            "category": "computers",
+            "price": 1799.99,
+            "description": "High-end gaming laptop with RGB lighting and top-tier performance.",
+            "specifications": [
+                "AMD Ryzen 9 5900HX",
+                "17.3-inch QHD 165Hz Display",
+                "32GB DDR4 RAM",
+                "1TB NVMe SSD",
+                "NVIDIA RTX 3070"
+            ],
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "product_id": "comp6",
+            "product_title": "Acer Swift 3",
+            "product_image": "https://images.unsplash.com/photo-1593642634443-44adaa06623a",
+            "category": "computers",
+            "price": 699.99,
+            "description": "Ultraportable laptop with great battery life and solid performance for everyday use.",
+            "specifications": [
+                "Intel Core i5-1135G7",
+                "14-inch FHD IPS Display",
+                "8GB LPDDR4X",
+                "512GB NVMe SSD",
+                "Intel Iris Xe Graphics"
+            ],
+            "availability": true,
+            "rating": 4.4
+        },
+        {
+            "product_id": "phone1",
+            "product_title": "iPhone 14 Pro",
+            "product_image": "https://www.digitaltrends.com/wp-content/uploads/2022/09/iPhone-14-Pro-Back-Purple-Hand.jpg?resize=1000%2C600&p=1",
+            "category": "phones",
+            "price": 999.99,
+            "description": "Apple's flagship phone with Dynamic Island and advanced camera system.",
+            "specifications": [
+                "A16 Bionic Chip",
+                "6.1-inch Super Retina XDR",
+                "48MP Main Camera",
+                "Dynamic Island",
+                "5G Capable"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": "phone2",
+            "product_title": "Samsung Galaxy S23",
+            "product_image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+            "category": "phones",
+            "price": 899.99,
+            "description": "Feature-packed Android flagship with exceptional camera capabilities.",
+            "specifications": [
+                "Snapdragon 8 Gen 2",
+                "6.7-inch Dynamic AMOLED",
+                "108MP Camera System",
+                "8K Video Recording",
+                "5000mAh Battery"
+            ],
+            "availability": true,
+            "rating": 4.7
+        },
+        {
+            "product_id": "watch1",
+            "product_title": "Apple Watch Series 8",
+            "product_image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+            "category": "smartwatches",
+            "price": 399.99,
+            "description": "Advanced health monitoring and connectivity features in a sleek design.",
+            "specifications": [
+                "Always-On Retina Display",
+                "Temperature Sensing",
+                "ECG App",
+                "Water Resistant",
+                "18-hour Battery Life"
+            ],
+            "availability": true,
+            "rating": 4.8
+        },
+        {
+            "product_id": "watch2",
+            "product_title": "Samsung Galaxy Watch 5",
+            "product_image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a",
+            "category": "smartwatches",
+            "price": 279.99,
+            "description": "Versatile smartwatch with comprehensive health tracking features.",
+            "specifications": [
+                "1.4-inch Super AMOLED",
+                "Wear OS Powered",
+                "BioActive Sensor",
+                "5ATM Water Resistance",
+                "Advanced Sleep Coaching"
+            ],
+            "availability": true,
+            "rating": 4.6
+        }
+        
+    ]
+}

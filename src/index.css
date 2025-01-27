@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+
+@layer base {
+  /* Add custom base styles */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  /* Add custom utility styles */
+  .transition-all {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* Custom styles for Rating component */
+.star-rating span {
+  display: inline-block;
+  margin-right: 2px;
+  font-size: 1.25rem;
+}
