@@ -6,6 +6,10 @@ Welcome to GadgetHeaven, a modern e-commerce platform for all your gadget needs.
 
 [Visit GadgetHeaven](https://gadgetheavenofficial.netlify.app/)
 
+## Requirements Document Link
+
+[Project Requirements](./Requirements.pdf)
+
 ## React Fundamental Concepts Used
 
 1. **Component Architecture**
@@ -79,44 +83,3 @@ Welcome to GadgetHeaven, a modern e-commerce platform for all your gadget needs.
    - Statistics dashboard
    - Sort products by price
    - Error handling with 404 page
-
-## Technologies Used
-
-- React
-- React Router
-- TailwindCSS
-- DaisyUI
-- React Hot Toast
-- React Rating
-
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Visit `localhost:5173` in your browser
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Banner/
-│   ├── Categories/
-│   ├── Products/
-│   ├── Cart/
-│   ├── WishList/
-│   ├── Layout/
-│   └── ...
-├── context/
-│   ├── CartContext.jsx
-│   └── WishListContext.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Dashboard.jsx
-│   ├── Stats.jsx
-│   └── NotFound.jsx
-├── hooks/
-│   └── useTitle.js
-└── data/
-    └── products.json
