@@ -4,6 +4,7 @@ import { useWishList } from '../context/WishListContext'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import useTitle from '../hooks/useTitle'
 import Banner from '../components/Banner/Banner'
+import group from '../assets/Group.png'
 
 const Dashboard = () => {
     useTitle('GadgetHeaven - Dashboard')
@@ -152,7 +153,7 @@ const Dashboard = () => {
                 >
                     <div className="bg-white p-8 rounded-2xl shadow-xl max-w-md mx-auto mt-[20vh] flex flex-col items-center">
                         <img
-                            src="src/assets/Group.png"
+                            src={group}
                             alt="Success"
                             className="w-16 h-16 mb-6"
                         />

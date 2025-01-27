@@ -1,4 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom'
+import banner from '../../assets/banner.jpg'
 import PropTypes from 'prop-types'
 
 const Banner = ({ activeTab, onTabChange, cartItemsCount, wishListItemsCount }) => {
@@ -75,7 +76,7 @@ const Banner = ({ activeTab, onTabChange, cartItemsCount, wishListItemsCount }) 
                     {content.hasImage && (
                         <div className="absolute md:w-1/2 hidden md:flex justify-end top-114 left-80">
                             <img
-                                src="src/assets/banner.jpg"
+                                src={banner}
                                 alt="Latest Gadgets"
                                 className="w-full h-[400px] object-cover rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
                             />

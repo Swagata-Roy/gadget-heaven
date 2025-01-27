@@ -4,13 +4,7 @@ Welcome to GadgetHeaven, a modern e-commerce platform for all your gadget needs.
 
 ## Live Website Link
 
-> Note: Live website URL needs to be updated once deployed.
-
-[Visit GadgetHeaven](https://your-live-website-url.com)
-
-## Requirements Document Link
-
-[Project Requirements](./instructions.txt)
+[Visit GadgetHeaven](https://gadgetheavenofficial.netlify.app/)
 
 ## React Fundamental Concepts Used
 
