@@ -42,13 +42,16 @@ const Navbar = () => {
     }
 
     const getNavheight = () => {
+        if (location.pathname.startsWith('/product/')) {
+            return 'h-20'
+        }
         switch (location.pathname) {
             case '/dashboard':
                 return 'h-10'
             case '/stats':
-                return 'h-18'
+                return 'h-20'
             case '/about':
-                return 'h-18'
+                return 'h-20'
             default:
                 return 'h-4'
         }

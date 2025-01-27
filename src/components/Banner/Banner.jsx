@@ -7,6 +7,17 @@ const Banner = ({ activeTab, onTabChange, cartItemsCount, wishListItemsCount }) 
     const location = useLocation()
 
     const getBannerContent = () => {
+        // Check if we're on a product details page
+        if (location.pathname.startsWith('/product/')) {
+            return {
+                gradient: 'from-purple-500 to-purple-600',
+                title: 'Product Details',
+                description: 'Explore the features and specifications of this amazing gadget',
+                showButton: false,
+                hasImage: false
+            }
+        }
+
         switch (location.pathname) {
             case '/':
                 return {
@@ -52,7 +63,7 @@ const Banner = ({ activeTab, onTabChange, cartItemsCount, wishListItemsCount }) 
 
     return (
         <div className={`${isHome ? '' : '-mx-4 -mt-8 w-screen relative left-1/2 right-1/2 -translate-x-1/2'}`}>
-            <div className={`relative bg-gradient-to-r ${content.gradient} ${isHome ? 'container mx-auto rounded-2xl mb-84 pt-20 pb-40' : 'mb-8 py-16'}`}>
+            <div className={`relative bg-gradient-to-r ${content.gradient} ${isHome ? 'container mx-auto rounded-2xl mb-84 pt-20 pb-40' : location.pathname.startsWith('/product/') ? 'mb-118 py-16 pb-40' : 'mb-8 py-16'}`}>
                 <div className="container mx-auto flex flex-col items-center justify-center h-full px-6">
                     {/* Text Content */}
                     <div className="text-center max-w-2xl space-y-4">
